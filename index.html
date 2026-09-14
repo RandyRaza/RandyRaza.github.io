@@ -1,211 +1,263 @@
-<!DOCTYPE html>
-<html>
-
+<!doctype html>
+<html lang="fr">
 <head>
-  <title>Randy Raza</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="icon" href="/Images/TabIcon.png" type="image/x-icon">
-
-
-  <style>
-    body,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      font-family: "Montserrat", sans-serif
-    }
-
-    .w3-row-padding img {
-      margin-bottom: 12px
-    }
-
-    /* Set the width of the sidebar to 120px */
-    .w3-sidebar {
-      width: 120px;
-      background: #222;
-    }
-
-    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-    #main {
-      margin-left: 120px
-    }
-
-    /* Remove margins from "page content" on small screens */
-    @media only screen and (max-width: 600px) {
-      #main {
-        margin-left: 0
-      }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Randy Raza — Développeur logiciel à Montréal</title>
+<meta name="description" content="Portfolio de Randy Raza : projets en programmation, algorithmes et logiciel scientifique. Découvrez mon parcours et contactez-moi.">
+<link rel="canonical" href="https://randyraza.github.io/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/styles.css">
 </head>
-
-<body class="w3-black">
-
-  <!-- Icon Bar (Sidebar - hidden on small screens) -->
-  <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-    <!-- Avatar image in top left corner -->
-    <img src="/Images/HelloWorld.png" style="width:100%">
-    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
-      <i class="fa fa-home w3-xxlarge"></i>
-      <p>HOME</p>
-    </a>
-    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-      <i class="fa fa-user w3-xxlarge"></i>
-      <p>ABOUT</p>
-    </a>
-    <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-      <i class="fa fa-eye w3-xxlarge"></i>
-      <p>PROJECTS</p>
-    </a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-      <i class="fa fa-envelope w3-xxlarge"></i>
-      <p>CONTACT</p>
-    </a>
-  </nav>
-
-  <!-- Navbar on small screens (Hidden on medium and large screens) -->
-  <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-      <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-      <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
-      <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
-      <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
-    </div>
-  </div>
-
-  <!-- Page Content -->
-  <div class="w3-padding-large" id="main">
-    <!-- Header/Home -->
-    <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-      <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Randy Raza.</h1>
-      <h2>Software Developer.</h2>
-      <picture>
-        <source srcset="/Images/picport.heic" type="image/heic">
-        <img src="/Images/picport.png" alt="me" class="w3-image" width="800" height="450">
-      </picture>
-    </header>
-
-
-    <!-- About Section -->
-    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-      <h2 class="w3-text-light-grey">About me</h2>
-      <hr style="width:200px" class="w3-opacity">
-      <p>Graduated in Computer Science and Software Development with fundamental knowledge in software design,
-        development and testing, I have excellent analytical and technical programming skills to thrive as a developer.
-        My goal is to join a team where we collaborate effectively to successfully complete development projects and
-        optimize available resources. As an individual, my ability to meet deadlines, my ability to communicate
-        effectively and manage projects are important assets.
-        I am determined to play a key role in the overall success of the team and the company.
-      </p>
-      <h3 class="w3-padding-16 w3-text-light-grey">Skills</h3>
-      <p class="w3-wide">
-        Languages : Python, Java, Javascript, C, SQL Developer.
-      </p>
-      <p class="w3-wide">
-        Operating System : Linux (Ubuntu), Mac OS.
-      </p>
-
-      <div class="w3-white">
-
-      </div>
-      <p class="w3-wide">Main Focus : Data Structures, Object Oriented Design, Scrum, Agile.</p>
-      <div class="w3-white">
-
-      </div>
-
-      <div class="w3-white">
-        <div class="w3-dark-grey" style="height:0.5px;width:0%"></div>
-      </div><br>
-
-
-      <a href="/Images/ResumeSup.pdf" download="Resume.pdf">
-        <button class="w3-button w3-light-grey w3-padding-large w3-section">
-          <i class="fa fa-download"></i> Download Resume
-        </button>
-      </a>
-
-
-      <!-- End About Section -->
-    </div>
-
-    <!-- Portfolio Section -->
-    <div class="w3-padding-64 w3-content" id="photos">
-      <h2 class="w3-text-light-grey">My Projects</h2>
-      <hr style="width:200px" class="w3-opacity">
-
-      <!-- Grid for photos -->
-      <div class="w3-row-padding" style="margin:0 -16px">
-        <div class="w3-half">
-          <a href="https://github.com/tahiri-lab/aPhyloGeo_plus_plus" target="_blank">
-            <img src="/Images/Aphylogeo.png" style="width:100%" alt="aPhyloGeo_plus_plus">
-          </a>
-
-          <a href="https://github.com/RandyRaza/Circles" target="_blank">
-            <img src="/Images/Circles.png" style="width:100%" alt="Circles">
-          </a>
-
-        </div>
-
-        <div class="w3-half">
-          <a href="https://github.com/RandyRaza/canvascii" target="_blank">
-            <img src="/Images/Canvas.png" style="width:100%" alt="Canvascii">
-          </a>
-          <a href="https://github.com/RandyRaza/hiddenword" target="_blank">
-            <img src="/Images/HiddenWord.png" style="width:100%" alt="HidWord">
-          </a>
-
-        </div>
-        <!-- End photo grid -->
-      </div>
-      <!-- End Portfolio Section -->
-    </div>
-
-    <!-- Contact Section -->
-    <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-      <h2 class="w3-text-light-grey">Contact Me</h2>
-      <hr style="width:200px" class="w3-opacity">
-
-      <div class="w3-section">
-        <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Montreal, QC</p>
-        <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +1 4385405401</p>
-        <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: raza.randy@gmail.com
-        </p>
-      </div><br>
-      <p>Let's get in touch. Send me a message:</p>
-
-
-      <form action="https://formspree.io/f/xgejgdww" method="POST">
-        <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-        <p><input class="w3-input w3-padding-16" type="email" placeholder="Email" required name="Email"></p>
-        <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-        <p><textarea class="w3-input w3-padding-16" placeholder="Message" required name="Message"></textarea></p>
-        <p>
-          <button class="w3-button w3-light-grey w3-padding-large" type="submit">
-            <i class="fa fa-paper-plane"></i> SEND MESSAGE
-          </button>
-        </p>
-      </form>
-
-      <!-- End Contact Section -->
-    </div>
-
-    <!-- Footer -->
-    <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-      <a href="https://www.linkedin.com/in/randy-raza/" target="_blank" class="w3-hover-opacity">
-        <i class="fa fa-linkedin"></i>
-      </a>
-    </footer>
-
-    <!-- END PAGE CONTENT -->
-  </div>
-
+<body>
+<link rel="preload" as="image" href="/Images/Aphylogeo.png"/>
+<a class="skip" href="#main">Aller au contenu</a>
+<header class="nav wrap">
+<a class="wordmark" href="#">Randy<span>.</span>
+</a>
+<nav aria-label="Navigation principale">
+<a href="#projets">Projets</a>
+<a href="#profil">À propos</a>
+<a class="nav-contact" href="#contact">Échangeons <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+<path d="M7 7h10v10">
+</path>
+<path d="M7 17 17 7">
+</path>
+</svg>
+</a>
+</nav>
+</header>
+<main id="main">
+<section class="hero wrap">
+<div class="hero-top">
+<span class="eyebrow">
+<i>
+</i> À la recherche de ma prochaine équipe</span>
+<span class="location">MONTRÉAL, QC ↗</span>
+</div>
+<h1>Randy Raza<span class="hero-role">Développeur<span class="outline"> logiciel.</span>
+</span>
+</h1>
+<div class="hero-bottom">
+<p>Du raisonnement au code.<br/>Je développe des outils, explore les algorithmes<br class="desktop"/> et donne forme aux idées.</p>
+<a class="round-link" href="#projets">
+<span>Explorer mes projets</span>
+<span class="round">
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-down" aria-hidden="true">
+<path d="M12 5v14">
+</path>
+<path d="m19 12-7 7-7-7">
+</path>
+</svg>
+</span>
+</a>
+</div>
+<div class="hero-rule">
+<span>PYTHON · JAVA · JAVASCRIPT · C · SQL</span>
+<span>PORTFOLIO / 01</span>
+</div>
+</section>
+<section class="projects wrap" id="projets">
+<div class="section-heading">
+<div>
+<span class="eyebrow">01 / EXPLORATIONS &amp; RÉALISATIONS</span>
+<h2>Le code, en pratique<span>.</span>
+</h2>
+</div>
+<a class="text-link" href="https://github.com/RandyRaza" target="_blank" rel="noreferrer">Mon GitHub <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+<path d="M7 7h10v10">
+</path>
+<path d="M7 17 17 7">
+</path>
+</svg>
+</a>
+</div>
+<article class="featured project">
+<a class="project-image" href="https://github.com/tahiri-lab/aPhyloGeo_plus_plus" target="_blank" rel="noreferrer" aria-label="Consulter le dépôt du projet aPhyloGeo">
+<span class="image-label">LOGICIEL SCIENTIFIQUE</span>
+<img src="/Images/Aphylogeo.png" alt="Aperçu du projet aPhyloGeo présenté dans mon portfolio"/>
+<span class="image-index">01 — PYTHON</span>
+</a>
+<div class="project-copy">
+<span class="eyebrow">DONNÉES &amp; VISUALISATION</span>
+<h3>aPhyloGeo<span>++</span>
+</h3>
+<p>Un projet à la croisée du logiciel et de la recherche : explorer les relations entre données génétiques et climatiques.</p>
+<div class="tags">
+<span>Python</span>
+<span>Bioinformatique</span>
+<span>Visualisation</span>
+</div>
+<a class="text-link" href="https://github.com/tahiri-lab/aPhyloGeo_plus_plus" target="_blank" rel="noreferrer">Explorer le dépôt <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+<path d="M7 7h10v10">
+</path>
+<path d="M7 17 17 7">
+</path>
+</svg>
+</a>
+</div>
+</article>
+<div class="project-grid">
+<article class="project small-project">
+<div class="code-preview" aria-label="Exemple de commande Canvascii">
+<span class="code-caption">CANVASCII / TERMINAL</span>
+<pre>
+<span>$</span> ./canvascii -n 19,19<br/>    -p 1 -c 9,9,9 -k</pre>
+<div class="code-note">
+<span>C11</span>
+<span>stdin → canevas → stdout</span>
+</div>
+</div>
+<div class="small-copy">
+<span class="eyebrow">02 / OUTIL EN LIGNE DE COMMANDE</span>
+<h3>Canvascii <a aria-label="Voir Canvascii sur GitHub" href="https://github.com/RandyRaza/canvascii" target="_blank" rel="noreferrer">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+<path d="M7 7h10v10">
+</path>
+<path d="M7 17 17 7">
+</path>
+</svg>
+</a>
+</h3>
+<p>Dessiner dans un terminal avec du C : canevas ASCII, couleurs et algorithmes de tracé de lignes et de cercles.</p>
+<div class="tags">
+<span>C</span>
+<span>Bresenham</span>
+<span>Tests Bats</span>
+</div>
+</div>
+</article>
+<article class="project small-project">
+<div class="word-preview">
+<span class="code-caption">HIDDENWORD / RECHERCHE DANS UNE GRILLE</span>
+<div class="word-line">M A N D O L I N E</div>
+<p>Lire. Parcourir. Résoudre.</p>
+<span class="word-foot">ENTRÉE TEXTE → MOT CACHÉ</span>
+</div>
+<div class="small-copy">
+<span class="eyebrow">03 / ALGORITHMIQUE</span>
+<h3>Hiddenword <a aria-label="Voir Hiddenword sur GitHub" href="https://github.com/RandyRaza/hiddenword" target="_blank" rel="noreferrer">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+<path d="M7 7h10v10">
+</path>
+<path d="M7 17 17 7">
+</path>
+</svg>
+</a>
+</h3>
+<p>Retrouver des mots dans une grille, puis reconstituer le mot mystère à partir des lettres restantes.</p>
+<div class="tags">
+<span>C</span>
+<span>Traitement de texte</span>
+<span>Tests</span>
+</div>
+</div>
+</article>
+</div>
+<div class="archive">
+<span>Également dans mes explorations</span>
+<a href="https://github.com/RandyRaza/Circles" target="_blank" rel="noreferrer">Circles <span>Prototype de jeu · C / SDL2 · Inachevé</span>
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+<path d="M7 7h10v10">
+</path>
+<path d="M7 17 17 7">
+</path>
+</svg>
+</a>
+</div>
+</section>
+<section class="about" id="profil">
+<div class="wrap about-grid">
+<div class="portrait">
+<img src="/Images/picport.png" alt="Randy Raza" loading="lazy"/>
+<span>RANDY RAZA / MONTRÉAL</span>
+</div>
+<div class="about-copy">
+<span class="eyebrow">02 / DERRIÈRE LE CODE</span>
+<h2>Comprendre.<br/>Construire.<br/>
+<span>Progresser.</span>
+</h2>
+<p>Diplômé en informatique et en développement logiciel, je souhaite rejoindre une équipe où contribuer à des projets concrets et continuer à développer mes compétences.</p>
+<p>Mes projets explorent la programmation en C, les algorithmes et les applications scientifiques. J’accorde de l’importance à la clarté du code et aux tests.</p>
+<div class="skills">
+<div>
+<span>LANGAGES</span>
+<p>Python, Java, JavaScript, C, SQL</p>
+</div>
+<div>
+<span>FONDAMENTAUX</span>
+<p>Structures de données, conception objet, tests</p>
+</div>
+<div>
+<span>ENVIRONNEMENT</span>
+<p>Linux, macOS, Scrum &amp; Agile</p>
+</div>
+</div>
+<a class="button" href="/Images/Resume.pdf" target="_blank" rel="noreferrer">Consulter mon CV <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download" aria-hidden="true">
+<path d="M12 15V3">
+</path>
+<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4">
+</path>
+<path d="m7 10 5 5 5-5">
+</path>
+</svg>
+</a>
+</div>
+</div>
+</section>
+<section class="contact wrap" id="contact">
+<span class="eyebrow">03 / LA SUITE COMMENCE PAR UN ÉCHANGE</span>
+<div class="contact-heading">
+<h2>Faisons<br/>
+<span>connaissance.</span>
+</h2>
+<a class="contact-arrow" href="mailto:raza.randy@gmail.com" aria-label="Envoyer un email à Randy">
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+<path d="M7 7h10v10">
+</path>
+<path d="M7 17 17 7">
+</path>
+</svg>
+</a>
+</div>
+<div class="contact-grid">
+<div>
+<p>Vous recrutez un développeur ?<br/>Parlons de votre équipe et de vos projets.</p>
+<a class="email" href="mailto:raza.randy@gmail.com">raza.randy@gmail.com</a>
+<a class="phone" href="tel:+14385405401">+1 438 540 5401</a>
+<div class="socials">
+<a href="https://github.com/RandyRaza" target="_blank" rel="noreferrer">GitHub</a>
+<a href="https://www.linkedin.com/in/randy-raza/" target="_blank" rel="noreferrer">LinkedIn</a>
+</div>
+</div>
+<form action="https://formspree.io/f/xgejgdww" method="POST">
+<div class="form-row">
+<label>Nom<input autoComplete="name" required="" placeholder="Votre nom" name="Name"/>
+</label>
+<label>Email<input type="email" autoComplete="email" required="" placeholder="vous@entreprise.com" name="Email"/>
+</label>
+</div>
+<label>Objet<input required="" placeholder="Une opportunité, une question…" name="Subject"/>
+</label>
+<label>Message<textarea name="Message" required="" rows="3" placeholder="Parlez-moi de votre projet.">
+</textarea>
+</label>
+<button class="button" type="submit">Envoyer le message <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true">
+<path d="M7 7h10v10">
+</path>
+<path d="M7 17 17 7">
+</path>
+</svg>
+</button>
+</form>
+</div>
+</section>
+</main>
+<footer class="wrap footer">
+<a class="wordmark" href="#">Randy<span>.</span>
+</a>
+<span>Randy Raza · Développeur logiciel</span>
+<a href="#">Retour en haut ↑</a>
+</footer>
 </body>
-
 </html>
